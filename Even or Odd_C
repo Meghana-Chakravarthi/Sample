@@ -1,0 +1,10 @@
+#include <stdio.h>
+void main() {
+   int n;
+   printf("Enter n:");
+   scanf("%d",&n);
+   if(n%2==0)
+     printf("Given Number is EVEN");
+   else
+     printf("Given Number is ODD");
+}
